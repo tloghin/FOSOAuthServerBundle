@@ -15,6 +15,20 @@
             "homepage": "https://github.com/FriendsOfSymfony/FOSOAuthServerBundle/contributors"
         }
     ],
+	"repositories": [
+		{
+            "type": "package",
+            "package": {
+                "name": "tloghin/oauth2-php",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/tloghin/oauth2-php.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+	],
     "require": {
         "php": ">=5.3.3",
         "tloghin/oauth2-php": "dev-master",
